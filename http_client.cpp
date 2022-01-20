@@ -6,7 +6,6 @@ using namespace boost::json;
 
 int main()
 {
-
     // HTTP
     httplib::Client cli("http://localhost:8080");
     auto res = cli.Get("/size");
